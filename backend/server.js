@@ -21,8 +21,6 @@ connectDB();
 // 2. Middleware & Security
 app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
 
-const cors = require('cors');
-
 app.use(cors({
   origin: [
     'http://localhost:5173',
