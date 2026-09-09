@@ -21,13 +21,15 @@ connectDB();
 // 2. Middleware & Security
 app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }));
 
-const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173';
-app.use(
-  cors({
-    origin: '*', // Allow all origins for dev flexibility
-    credentials: true,
-  })
-);
+const cors = require('cors');
+
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://polyscan-ai.vercel.app'
+  ],
+  credentials: true
+}))
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -65,7 +67,7 @@ app.get('/api/health', (req, res) => {
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5001;
+
 app.listen(PORT, () => {
-  console.log(`[PolyScan AI Backend] Server running on port ${PORT}`);
-  console.log(`[PolyScan AI Backend] Configured Gemini Model: ${process.env.GEMINI_MODEL || 'gemini-1.5-flash'}`);
+  console.log(`Server running on port ${PORT}`);
 });
