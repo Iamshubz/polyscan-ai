@@ -1,0 +1,229 @@
+[
+  {
+    "code": "PET",
+    "name": "Polyethylene Terephthalate",
+    "resinCode": 1,
+    "description": "PET is a strong, lightweight, transparent plastic widely used in beverage containers, food packaging, and synthetic fibers.",
+    "commonUses": [
+      "Water & soft drink bottles",
+      "Food jars & clamshell containers",
+      "Polyester textile fibers",
+      "Strapping & thermoformed packaging"
+    ],
+    "recyclability": {
+      "level": "High",
+      "description": "PET is 100% recyclable and has established mechanical recycling infrastructure worldwide."
+    },
+    "manufacturingProcesses": [
+      "Injection Molding",
+      "Blow Molding",
+      "Thermoforming",
+      "Extrusion"
+    ],
+    "disposalRecommendation": "Recycle in dedicated PET/Curbside recycling bins. Ensure the bottle is empty, clean, and caps/labels are removed where required.",
+    "reuseIdeas": [
+      "Plant Pots",
+      "Storage Containers",
+      "DIY Crafts",
+      "Organizers",
+      "Eco-Bricks"
+    ],
+    "environmentalImpact": {
+      "level": "Moderate",
+      "description": "Widely recyclable but slow to degrade natively. Microplastic shedding occurs if landfilled or littered."
+    },
+    "sustainabilityScore": 8.2
+  },
+  {
+    "code": "HDPE",
+    "name": "High-Density Polyethylene",
+    "resinCode": 2,
+    "description": "HDPE is a versatile, high-density thermoplastic with high strength-to-density ratio, excellent moisture resistance, and chemical stability.",
+    "commonUses": [
+      "Milk jugs & juice bottles",
+      "Detergent & shampoo bottles",
+      "Plastic pipes & fittings",
+      "Cutting boards & recycling bins"
+    ],
+    "recyclability": {
+      "level": "High",
+      "description": "One of the easiest polymers to recycle into sturdy long-term products such as plastic lumber and pipes."
+    },
+    "manufacturingProcesses": [
+      "Extrusion Blow Molding",
+      "Injection Molding",
+      "Rotational Molding"
+    ],
+    "disposalRecommendation": "Rinse thoroughly and place in standard plastic recycling stream.",
+    "reuseIdeas": [
+      "Planters",
+      "Tool Organizers",
+      "Heavy Duty Containers",
+      "Water Scoops"
+    ],
+    "environmentalImpact": {
+      "level": "Low",
+      "description": "Non-toxic, highly durable, low leaching risk, easily re-processed into secondary goods."
+    },
+    "sustainabilityScore": 8.8
+  },
+  {
+    "code": "PVC",
+    "name": "Polyvinyl Chloride",
+    "resinCode": 3,
+    "description": "PVC is a durable polymer used in rigid structural applications and flexible tubing. Contains chlorine compounds.",
+    "commonUses": [
+      "Plumbing pipes & conduits",
+      "Window frames & vinyl siding",
+      "Medical tubing & IV bags",
+      "Synthetic leather"
+    ],
+    "recyclability": {
+      "level": "Low",
+      "description": "Difficult to recycle mechanically due to additives and chlorine content. Requires specialized facilities."
+    },
+    "manufacturingProcesses": [
+      "Extrusion",
+      "Calendering",
+      "Injection Molding"
+    ],
+    "disposalRecommendation": "Do not burn or place in standard curbside bins. Take to specialized construction material recycling centers.",
+    "reuseIdeas": [
+      "Cable Conduit Reuse",
+      "Garden Trellis Construction",
+      "Tool Handles"
+    ],
+    "environmentalImpact": {
+      "level": "High",
+      "description": "Can release hazardous dioxins during thermal incineration if unmanaged."
+    },
+    "sustainabilityScore": 4.1
+  },
+  {
+    "code": "LDPE",
+    "name": "Low-Density Polyethylene",
+    "resinCode": 4,
+    "description": "LDPE is flexible, lightweight, and tough with high impact strength and moisture protection.",
+    "commonUses": [
+      "Squeeze bottles",
+      "Grocery shopping bags",
+      "Plastic wrap & film",
+      "Flexible packaging bags"
+    ],
+    "recyclability": {
+      "level": "Moderate",
+      "description": "Recyclable primarily through dedicated store drop-off programs for plastic films."
+    },
+    "manufacturingProcesses": [
+      "Blown Film Extrusion",
+      "Injection Molding"
+    ],
+    "disposalRecommendation": "Bundle soft plastic film and return to supermarket film drop-off bins.",
+    "reuseIdeas": [
+      "Trash Can Liners",
+      "Protective Wrapping",
+      "Craft Weaving"
+    ],
+    "environmentalImpact": {
+      "level": "Moderate",
+      "description": "Lightweight and low energy to produce, but easily winds up as windborne litter if uncollected."
+    },
+    "sustainabilityScore": 6.7
+  },
+  {
+    "code": "PP",
+    "name": "Polypropylene",
+    "resinCode": 5,
+    "description": "PP is a tough, heat-tolerant polymer ideal for reusable food containers, bottle caps, and auto parts.",
+    "commonUses": [
+      "Yogurt cups & margarine tubs",
+      "Microwavable food containers",
+      "Bottle caps & closures",
+      "Laboratoryware & medicine bottles"
+    ],
+    "recyclability": {
+      "level": "High",
+      "description": "Increasingly accepted in curbside programs and remanufactured into automotive components and bins."
+    },
+    "manufacturingProcesses": [
+      "Injection Molding",
+      "Thermoforming",
+      "Fibrous Extrusion"
+    ],
+    "disposalRecommendation": "Clean food residue and place in municipal plastic recycling.",
+    "reuseIdeas": [
+      "Food Meal Prep Storage",
+      "Hardware Bolt Bins",
+      "Plant Seedling Starters"
+    ],
+    "environmentalImpact": {
+      "level": "Low",
+      "description": "Safe, BPA-free, high fatigue resistance allows repeated reuse before recycling."
+    },
+    "sustainabilityScore": 8.5
+  },
+  {
+    "code": "PS",
+    "name": "Polystyrene",
+    "resinCode": 6,
+    "description": "PS exists as solid plastic (clear cutlery) or expanded foam (Styrofoam) providing insulation.",
+    "commonUses": [
+      "Disposable coffee cups & cutlery",
+      "Styrofoam packing peanuts & clamshells",
+      "CD cases & razor handles",
+      "Insulation boards"
+    ],
+    "recyclability": {
+      "level": "Low",
+      "description": "Expanded foam PS is voluminous, brittle, and rarely accepted in standard curbside collection."
+    },
+    "manufacturingProcesses": [
+      "Expanded Bead Molding",
+      "Injection Molding",
+      "Sheet Extrusion"
+    ],
+    "disposalRecommendation": "Avoid single-use PS. Dispose in solid waste stream or specialty EPS foam drop-offs.",
+    "reuseIdeas": [
+      "Packing Cushioning",
+      "Planter Drainage Fill",
+      "Insulation Padding"
+    ],
+    "environmentalImpact": {
+      "level": "High",
+      "description": "Fragments easily into persistent microplastics and leaches styrene monomers under heat."
+    },
+    "sustainabilityScore": 3.4
+  },
+  {
+    "code": "ABS",
+    "name": "Acrylonitrile Butadiene Styrene",
+    "resinCode": 7,
+    "description": "ABS is an engineering thermoplastic known for high impact resistance, rigidity, and smooth glossy surface finish.",
+    "commonUses": [
+      "Electronics enclosures & laptop housings",
+      "LEGO bricks & toys",
+      "Automotive trim & dashboards",
+      "3D printing filaments"
+    ],
+    "recyclability": {
+      "level": "Specialized",
+      "description": "100% recyclable through e-waste shredding and industrial polymer recovery."
+    },
+    "manufacturingProcesses": [
+      "Injection Molding",
+      "3D Printing (FDM)",
+      "Extrusion"
+    ],
+    "disposalRecommendation": "Dispose via e-waste recycling stations or electronics take-back events.",
+    "reuseIdeas": [
+      "Custom 3D Print Filament Shredding",
+      "Enclosure Upcycling",
+      "Repurposed Component Shells"
+    ],
+    "environmentalImpact": {
+      "level": "Moderate",
+      "description": "Extremely long-lasting durable polymer. Low hazard when intact in solid state."
+    },
+    "sustainabilityScore": 7.3
+  }
+]
