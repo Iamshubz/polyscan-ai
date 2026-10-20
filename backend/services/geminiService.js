@@ -47,7 +47,7 @@ const normalizeDetectedObject = (rawObject = {}) => {
 
 const analyzePlasticImage = async (fileBuffer, mimeType = 'image/jpeg') => {
   const apiKey = process.env.GEMINI_API_KEY;
-  const modelName = process.env.GEMINI_MODEL || 'gemini-1.5-flash';
+  const modelName = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 
   if (apiKey && GoogleGenerativeAI) {
     try {
